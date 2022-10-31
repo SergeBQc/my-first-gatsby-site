@@ -13,6 +13,6 @@ const AboutPage = () => {
 }
 
 // Step 3 : Export your component
-export const Head = () => <Seo title="About Me"/>
+export const Head = ({ data }) => <Seo title="About Me"/>
 
 export default AboutPage
